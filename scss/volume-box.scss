@@ -1,0 +1,88 @@
+.volume-box {
+  margin: 0 30px 0 0;
+  width: 400px;
+}
+
+.volume-inner {
+  width: 350px;
+  height: 350px;
+  box-shadow: 2px 4px 1px rgba(0, 0, 0, 0.1), inset -2px -4px 2px rgba(0, 0, 0, 0.1), inset 0 0 1px 1px rgba(255, 255, 255, 0.4);
+  background-color: #e6e3df;
+  background-image: linear-gradient(-24deg, rgba(82, 82, 85, 0.2) 0%, rgba(82, 82, 85, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%, rgba(119, 119, 119, 0.2) 100%);
+  border-radius: 175px;
+}
+
+// castom roundslider.min.scss
+
+#slider {
+  margin: auto;
+  padding-top: 25px;
+
+}
+
+.rs-range-color {
+  // background: #73d9f7;
+  // background: -moz-linear-gradient(left, #73d9f7 0%, #78b651 100%);
+  // background: -webkit-linear-gradient(left, #73d9f7 0%,#78b651 100%);
+  // background: linear-gradient(to right, #73d9f7 0%,#78b651 100%);
+}
+
+.rs-border {
+  border: 0;
+}
+
+.rs-control {
+
+  .rs-overlay {
+    display: none;
+  }
+}
+
+.rs-block {
+  .rs-inner {
+    background-color: #e6e3df;
+    background-image: linear-gradient(-24deg, rgba(82, 82, 85, 0.2) 0%, rgba(82, 82, 85, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%, rgba(119, 119, 119, 0.2) 100%);
+  }
+}
+
+.rs-handle {
+  margin: -13px 0 0 !important;
+  width: 31px !important;
+  height: 31px !important;
+  box-shadow: 1px 2px 0 #ffffff, inset 2px 3px 2px rgba(0, 0, 0, 0.16);
+  background-color: rgba(201, 199, 199, 0);
+  background-image: linear-gradient(151deg, #d1cecb 0%, #eeeded 100%);
+
+  &.rs-move {
+    cursor: pointer;
+  }
+
+  &.rs-focus {
+    box-shadow: inset 1px 2px 0 #ffffff, 2px 3px 2px rgba(0, 0, 0, 0.16);
+  }
+}
+
+.full {
+  .rs-bar {
+    top: 49%;
+    left: 18%;
+    width: 32%;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    box-shadow: 1px 3px 19px rgba(0, 0, 0, 0.1), inset -4px -7px 2px rgba(0, 0, 0, 0.1), inset 0 0 1px 1px rgba(255, 255, 255, 0.4);
+    background-color: #f8f6f4;
+    background-image: linear-gradient(-14deg, rgba(82, 82, 85, 0.2) 0%, rgba(82, 82, 85, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%, rgba(119, 119, 119, 0.2) 100%);
+    z-index: 4;
+  }
+}
