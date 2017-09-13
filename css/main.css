@@ -762,6 +762,14 @@ div.rs-block {
   margin: auto;
   padding-top: 25px; }
 
+.rs-range-color {
+  background: #73d9f7;
+  background: -moz-linear-gradient(left, #73d9f7 0%, #78b651 100%);
+  background: -webkit-linear-gradient(left, #73d9f7 0%, #78b651 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#73d9f7), to(#78b651));
+  background: -o-linear-gradient(left, #73d9f7 0%, #78b651 100%);
+  background: linear-gradient(to right, #73d9f7 0%, #78b651 100%); }
+
 .rs-border {
   border: 0; }
 
